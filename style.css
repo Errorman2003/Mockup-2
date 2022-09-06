@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
+
+body {
+  font-family: "Gothic A1", sans-serif;
+  text-align: center;
+}
+
+#title {
+  background-image: linear-gradient(
+    to top left,
+    rgb(61, 14, 74),
+    rgb(217, 37, 114)
+  );
+  color: white;
+  overflow: hidden;
+}
+#title .top-space {
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+}
+#title a {
+  text-decoration: none;
+  color: white;
+}
+#title p {
+  font-size: 1.7rem;
+}
+#title a.btn-1 {
+  padding: 4% 8%;
+  background-color: rgb(252, 44, 127);
+}
+#title img {
+  width: 35rem;
+  height: 37rem;
+  position: relative;
+  right: 5%;
+}
+#title h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 25%;
+}
+.side-spacing {
+  padding: 0 10%;
+}
+
+.left-align {
+  text-align: left;
+}
+#title svg {
+  position: absolute;
+  top: 90%;
+}
+
+/* #about*/
+
+#about {
+  background-color: rgb(27, 27, 27);
+  overflow: hidden;
+}
+#about p {
+  color: rgb(168, 168, 168);
+  margin-top: 4%;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+}
+
+#about h2 {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 2.5rem;
+  width: 50%;
+  margin: 3% auto 5%;
+}
+#about img {
+  width: 75rem;
+  height: 40rem;
+}
+
+/* features */
+
+/* #features {
+    padding: 5%;
+} */
+
+#features .img-1 {
+  width: 21.313rem;
+  height: 39.813rem;
+}
+#features p:first-of-type {
+  color: rgb(189, 189, 189);
+  margin-top: 35%;
+}
+#features h2 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+#features.features-pad {
+  padding: 5% 20% 5%;
+}
+#features .img-2 {
+  height: 29.313rem;
+  width: 24.125rem;
+}
+
+#features .img-3 {
+  height: 31.688rem;
+  width: 21.313rem;
+}
+#features .pad-center {
+  padding: 10% 0;
+}
+#features .left-text {
+  text-align: left;
+  padding-right: 10%;
+}
+
+
+/* stats */
+
+#stats {
+    text-align: center;
+    padding: 5% 7% 0;
+}
+#stats h3{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+#stats .stats-space {
+    margin-top: 10%;
+}
+#stats .stats-large {
+    font-size: 4rem;
+}
+#stats svg{
+    margin-bottom: 10%;
+}
+#stats .padded-sides{
+    width: 80%;
+    margin: auto;
+    line-height: 2;
+    color: rgb(136,119,112);
+    font-weight: 500;
+}
+#stats .stats-bold{
+    font-weight: 900;
+}
+/* how to use  */
+
+#how-to-use {
+    padding: 10% 15%;
+    text-align: left;
+}
+#how-to-use .pad-btw{
+    padding-bottom: 15%;
+}
+
+#how-to-use p {
+  color: rgb(136,119,112);
+}
+
+#how-to-use h2 {
+  color: #000;
+  font-weight: 900;
+  font-size: 3rem;
+}
+#how-to-use .pad-right{
+  padding-right: 8%;
+}
+#how-to-use p:first-of-type{
+  margin-top: 15%;
+}
+#how-to-use .pad-left {
+  padding-left: 4%;
+}
+
+
+/* testimonies */
+
+#testimonies svg {
+  width: 8%;
+  height: 8%;
+  margin-bottom: 6%;
+}
+
+#testimonies .contain {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#testimonies p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2;
+}
+
+#testimonies .desc{
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 2%;
+}
+
+#testimonies img{
+  margin-top: 6%;
+}
+
+#testimonies .bg-app {
+  width: 84.313rem;
+  height: 30.352rem;
+}
+
+/* download */
+#download {
+  background-image: linear-gradient(
+    to top left,
+    rgb(61, 14, 74),
+    rgb(217, 37, 114)
+  );
+  /* height: 30rem; */
+  padding: 15% 0;
+}
+
+#download h3 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 4rem;
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+
+#download a{
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 5%;
+}
+
+#download .download{
+  background-color: rgb(252,44,127);
+}
+
+#download .get{
+  border: 2px solid rgb(172,65,180);
+}
+#download .download:hover{
+  background-color: #fff;
+  color: rgb(92,92,92);
+}
+
+#download .get:hover{
+  border-color:#fff;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(27,27,27);
+  padding: 8% 0;
+}
+
+footer h3 {
+  color: #fff;
+  margin-bottom: 3%;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+footer p {
+  color :rgb(92,92,92);
+  margin-bottom: 2%;
+}
+input, button{
+  margin-bottom: 10%;
+}
+
+footer a{
+  text-decoration: none;
+  color :rgb(92,92,92);
+  text-decoration: none;
+}
+input[type="email"]{
+  height: 4rem;
+  width: 22rem;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+footer button {
+  height: 4rem;
+  width: 7rem;
+  position: relative;
+  right: 0.3rem; 
+  border-radius: 0 5px 5px 0;
+  background-color: rgb(252,44,127);
+  color: #fff;
+  font-weight: 700;
+}
+
+input[type="email"]:hover, footer button {
+  border: 2px solid rgb(252,44,127);
+}
